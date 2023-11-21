@@ -1,45 +1,72 @@
+
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saikou - Tu aplicación para ver anime</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Saikou</h1>
-        <p>Tu aplicación para ver anime favorita</p>
-    </header>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Profile Page</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="header__wrapper">
+      <header></header>
+      <div class="cols__container">
+        <div class="left__col">
+          <div class="img__container">
+            <img src="img/app_icon.png" alt="Saikou App" />
+            <span></span>
+          </div>
+          <h2>Saikou</h2>
+          <p>version: 1.0</p>
+          <p></p>
 
-    <section id="intro">
-        <h2>¡Bienvenido a Saikou!</h2>
-        <p>Versión 1.0.0</p>
-        <p>Saikou es una aplicación para ver anime con una amplia biblioteca y características increíbles.</p>
-    </section>
+          <ul class="about">
+            <li><span>Favoritos</span>administra tus animes favoritos</li>
+            <li><span>Historial</span>Seguimiento a episodios vistos</li>
+            <li><span></span></li>
+          </ul>
 
-    <section id="features">
-        <h2>Características</h2>
-        <ul>
-            <li>Amplia biblioteca de anime</li>
-            <li>Interfaz fácil de usar</li>
-            <li>Actualizaciones regulares</li>
-        </ul>
-    </section>
+          <div class="content">
+            <p>
+                Tu aplicación para ver tus anime favoritos.
+            </p>
 
-    <section id="screenshots">
-        <h2>Capturas de Pantalla</h2>
-        <div class="screenshot">
-            <img src="screenshot1.png" alt="Captura de pantalla 1">
+            <ul>
+              <li><i class="fab fa-twitter"></i></li>
+              <i class="fab fa-pinterest"></i>
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-dribbble"></i>
+            </ul>
+          </div>
         </div>
-        <div class="screenshot">
-            <img src="screenshot2.png" alt="Captura de pantalla 2">
-        </div>
-        <!-- Agrega más capturas de pantalla según sea necesario -->
-    </section>
+        <div class="right__col">
+          <nav>
+            <ul>
+                <li><a href="">Fotos</a></li>
+                <li><a href="">Galerías</a></li>
+                <li><a href="">Grupos</a></li>
+                <li><a href="">Acerca de</a></li>
+            </ul>
+            <button>Descargar</button>
+          </nav>
 
-    <footer>
-        <p>&copy; 2023 Saikou - Todos los derechos reservados</p>
-    </footer>
-</body>
+          <div class="photos">
+            <img src="img/img.png" alt="Photo" />
+            <img src="img/img_2.avif" alt="Photo" />
+            <img src="img/img_3.avif" alt="Photo" />
+            <img src="img/img_4.avif" alt="Photo" />
+            <img src="img/img_5.avif" alt="Photo" />
+            <img src="img/img_6.avif" alt="Photo" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
